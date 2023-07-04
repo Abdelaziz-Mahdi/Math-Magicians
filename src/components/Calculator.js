@@ -18,7 +18,7 @@ function Button() {
     { id: 1, value: 'AC', color: 'gray-eo' },
     { id: 2, value: '+/-', color: 'gray-eo' },
     { id: 3, value: '%', color: 'gray-eo' },
-    { id: 4, value: '/', color: 'orange' },
+    { id: 4, value: '÷', color: 'orange' },
     { id: 5, value: '7', color: 'gray-eo' },
     { id: 6, value: '8', color: 'gray-eo' },
     { id: 7, value: '9', color: 'gray-eo' },
