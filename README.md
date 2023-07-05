@@ -12,7 +12,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [:movie_camera: Project Presentation](#project-presentation)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -75,16 +74,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- Project Presntation -->
-
-## :movie_camera: Project Presentation <a name="project-presentation"></a>
-
-Walking through the pokedex project.
-
-- [Project Presentation Link (soon)]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -121,7 +110,7 @@ To run the project, execute the following command:
 - git status
 - npm init
 - npm install
-- npm run dev
+- npm start
 
 ### Run tests
 
@@ -133,8 +122,7 @@ npm test
 
 You can deploy this project using:
 
-- Github Pages.
-- Netlify.
+- Render.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -154,9 +142,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add Components.**
-- [ ] **Add Events.**
-- [ ] **Fetch data from API.**
 - [ ] **Finish full website.**
 - [ ] **Create Tests.**
 - [ ] **Deploy.**
@@ -166,6 +151,8 @@ You can deploy this project using:
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
