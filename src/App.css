@@ -58,9 +58,18 @@ button {
 }
 
 .height-83 {
-  height: 83vh;
+  height: 70vh;
 }
 
 .height-16 {
   height: 16vh;
+}
+
+p {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  padding-left: 1rem;
+  margin: 0;
+  height: 14vh;
 }
