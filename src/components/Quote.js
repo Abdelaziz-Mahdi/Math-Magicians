@@ -30,6 +30,7 @@ function Quote({ sav }) {
     <>
       <p className={sav}>
         Quote :
+        {' '}
         {data}
       </p>
     </>
