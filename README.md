@@ -40,10 +40,9 @@
 <details>
   <summary>Languages &  bundlers</summary>
   <ul>
-    <li>JS</li>
-    <li>React</li>
+    <li>JSX</li>
+    <li>CRA</li>
     <li>ES6</li>
-    <li>VITE</li>
     <li>Jest</li>
   </ul>
 </details>
@@ -51,8 +50,7 @@
 <details>
   <summary>Server</summary>
   <ul>
-    <li>Gethub Pages</li>
-    <li>Netlify</a></li>
+    <li>Render</li>
   </ul>
 </details>
 
@@ -93,7 +91,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 - cd my-folder
-- git clone [https://github.com/Abdelaziz-Ali/Math-Magicians.git](https://github.com/Abdelaziz-Ali/Math-Magicians.git)
+- git clone [https://github.com/Abdelaziz-Ali/Math-Magician.git](https://github.com/Abdelaziz-Ali/Math-Magician.git)
 
 ### Install
 
@@ -122,7 +120,8 @@ npm test
 
 You can deploy this project using:
 
-- Render.com
+- Github Pages.
+- Netlify.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,7 +141,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Finish full website.**
 - [ ] **Create Tests.**
 - [ ] **Deploy.**
 
