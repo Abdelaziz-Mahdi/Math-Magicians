@@ -8,14 +8,14 @@ import Home from './components/Home';
 import Nav from './components/Nav';
 
 function App() {
-  const saveClass = 'color-white';
+  const styleClass = 'color-white';
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Nav />}>
           <Route index element={<Home />} />
           <Route path="calculator" element={<Calculator />} />
-          <Route path="quote" element={<Quote sav={saveClass} />} />
+          <Route path="quote" element={<Quote styleClass={styleClass} />} />
           <Route path="*" element={<Home />} />
         </Route>
       </Routes>
