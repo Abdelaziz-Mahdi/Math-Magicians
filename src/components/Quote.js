@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import { PropTypes } from 'prop-types';
+import '../styles/Quote.css';
 
-function Quote({ sav }) {
+function Quote({ styleClass }) {
   const [data, setData] = useState('loading...');
 
   useEffect(() => {
@@ -20,7 +21,7 @@ function Quote({ sav }) {
         requestOptions,
       )
         .then((response) => response.json())
-        .then((result) => setData(result[0].quote))
+        .then((result) => setData(`“${result[0].quote}” \n ― ${result[0].author}`))
         .catch(() => setData('Error loading Quotes!!'));
     };
     getQuotes();
@@ -28,7 +29,7 @@ function Quote({ sav }) {
 
   return (
     <>
-      <p className={sav}>
+      <p className={`${styleClass} quote`}>
         Quote :
         {' '}
         {data}
@@ -36,6 +37,6 @@ function Quote({ sav }) {
     </>
   );
 }
-Quote.propTypes = { sav: PropTypes.string.isRequired };
+Quote.propTypes = { styleClass: PropTypes.string.isRequired };
 
 export default Quote;

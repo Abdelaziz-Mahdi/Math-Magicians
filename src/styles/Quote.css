@@ -1,0 +1,20 @@
+.quote {
+  font-size: 2rem;
+  font-weight: 500;
+  font-style: italic;
+  margin: 1rem 0;
+  text-align: center;
+  padding: 0 1rem;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 82vh;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .quote {
+    font-size: 1.3rem;
+  }
+}
