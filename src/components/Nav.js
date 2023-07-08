@@ -1,21 +1,42 @@
-import React, { Outlet } from 'react';
+import { Outlet, Link, NavLink } from 'react-router-dom';
 
 function Nav() {
   return (
     <>
-      <a href="/">
-        <h1>Math magicians</h1>
-      </a>
       <nav>
+        <h1>
+          <Link to="/">Math Magicians</Link>
+        </h1>
         <ul>
           <li>
-            <a href="/">Home</a>
+            <NavLink
+              style={({ isActive }) => (isActive ? { color: '#f5913e' } : {})}
+              to="/"
+            >
+              Home
+            </NavLink>
           </li>
           <li>
-            <a href="/calculator">Calculator</a>
+            <span>&nbsp; | &nbsp;</span>
           </li>
           <li>
-            <a href="/quote">Quote</a>
+            <NavLink
+              style={({ isActive }) => (isActive ? { color: '#f5913e' } : {})}
+              to="/calculator"
+            >
+              Calculator
+            </NavLink>
+          </li>
+          <li>
+            <span>&nbsp; | &nbsp;</span>
+          </li>
+          <li>
+            <NavLink
+              style={({ isActive }) => (isActive ? { color: '#f5913e' } : {})}
+              to="/quote"
+            >
+              Quote
+            </NavLink>
           </li>
         </ul>
       </nav>
