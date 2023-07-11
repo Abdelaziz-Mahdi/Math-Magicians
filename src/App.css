@@ -82,8 +82,13 @@ button {
   border: #bbbcbc solid 1px;
   padding: 0.5rem 1rem;
   cursor: pointer;
-  font-size: x-large;
+  font-size: larger;
   font-weight: 600;
+}
+
+button:active {
+  border: #bbbcbc solid 1px;
+  background-color: cornflowerblue;
 }
 
 .height-83 {
