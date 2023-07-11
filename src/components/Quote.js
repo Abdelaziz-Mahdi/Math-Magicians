@@ -3,7 +3,9 @@ import { PropTypes } from 'prop-types';
 import '../styles/Quote.css';
 
 function Quote({ styleClass }) {
-  const [data, setData] = useState('loading...');
+  const [quote, setQuote] = useState('loading...');
+  const [author, setAuthor] = useState('');
+  const [error, setError] = useState('loading...');
 
   useEffect(() => {
     const getQuotes = async () => {
@@ -21,8 +23,8 @@ function Quote({ styleClass }) {
         requestOptions,
       )
         .then((response) => response.json())
-        .then((result) => setData(`“${result[0].quote}” \n ― ${result[0].author}`))
-        .catch(() => setData('Error loading Quotes!!'));
+        .then((result) => { setAuthor(`― ${result[0].author}`); setQuote(`“${result[0].quote}”`); })
+        .catch((error) => setError(`Error loading Quotes!!${error.status_code}`));
     };
     getQuotes();
   }, []);
@@ -32,7 +34,12 @@ function Quote({ styleClass }) {
       <p className={`${styleClass} quote`}>
         Quote :
         {' '}
-        {data}
+        {quote}
+        <br />
+        {author}
+      </p>
+      <p className={`${styleClass} quote`}>
+        {error}
       </p>
     </>
   );
