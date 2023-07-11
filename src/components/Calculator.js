@@ -19,7 +19,7 @@ function Calculator() {
 
 function Display({ result }) {
   return (
-    <h2 className="bg-gray color-white text-right pr-1 height-16" style={{ marginButton: '0px' }}>
+    <h2 className="bg-gray color-white text-right pr-1 height-16" style={{ marginBlockEnd: '0px' }}>
       {result[0] == null && result[1] == null ? '0' : result[0]}
       {result[2] == null ? '' : result[2]}
       {result[1] == null ? '' : result[1]}
