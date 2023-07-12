@@ -12,6 +12,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -67,6 +68,15 @@
 - **Use GitFlow.**
 - **Single page React app.**
 - **Consume app data from API.**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Math-Magicians Live Demo](https://math-magicians-5wnx.onrender.com/)  //
+*Press `Ctrl + click` to open the link in a new tab.*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,15 +139,6 @@ You can deploy this project using:
 - GitHub: [@Abdelaziz-Ali](https://github.com/Abdelaziz-Ali)
 - Twitter: [@AbdelazizDV](https://twitter.com/AbdelazizDV)
 - LinkedIn: [in/abdelaziz-mahdi](https://www.linkedin.com/in/abdelaziz-mahdi)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **Create Tests.**
-- [ ] **Deploy.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
