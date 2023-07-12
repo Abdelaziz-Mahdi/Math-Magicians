@@ -5,7 +5,7 @@ import '../styles/Quote.css';
 function Quote({ styleClass }) {
   const [quote, setQuote] = useState('loading...');
   const [author, setAuthor] = useState('');
-  const [error, setError] = useState('loading...');
+  const [error, setError] = useState('');
 
   useEffect(() => {
     const getQuotes = async () => {
@@ -22,25 +22,28 @@ function Quote({ styleClass }) {
         'https://api.api-ninjas.com/v1/quotes?category=learning',
         requestOptions,
       )
+
         .then((response) => response.json())
         .then((result) => { setAuthor(`― ${result[0].author}`); setQuote(`“${result[0].quote}”`); })
-        .catch((error) => setError(`Error loading Quotes!!${error.status_code}`));
+        .catch(() => setError('Error loading Quotes!!'));
     };
     getQuotes();
   }, []);
 
   return (
     <>
-      <p className={`${styleClass} quote`}>
-        Quote :
-        {' '}
-        {quote}
-        <br />
-        {author}
-      </p>
-      <p className={`${styleClass} quote`}>
-        {error}
-      </p>
+      { error
+        ? <p className={`${styleClass} quote`}>{error}</p>
+        : (
+          <p className={`${styleClass} quote`}>
+            Quote :
+            {' '}
+            {quote}
+            <br />
+            {author}
+          </p>
+        ) }
+
     </>
   );
 }
