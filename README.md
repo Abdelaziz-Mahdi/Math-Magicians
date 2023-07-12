@@ -42,7 +42,6 @@
   <ul>
     <li>JSX</li>
     <li>CRA</li>
-    <li>ES6</li>
     <li>Jest</li>
   </ul>
 </details>
@@ -67,7 +66,6 @@
 
 - **Use GitFlow.**
 - **Single page React app.**
-- **Use ES6 syntax.**
 - **Consume app data from API.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -105,8 +103,6 @@ Install this project with:
 To run the project, execute the following command:
 
 - code .
-- git status
-- npm init
 - npm install
 - npm start
 
@@ -120,8 +116,7 @@ npm test
 
 You can deploy this project using:
 
-- Github Pages.
-- Netlify.
+- Render.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,7 +157,8 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Templete used in project provided by (Microverse)!
+- Templete used in project provided by (Microverse)!
+- Icon and logo by Tristan Edwards @iconfinder.com.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
