@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Api component 1`] = `
+<p
+  className="undefined quote"
+>
+  Quote :
+   
+  loading...
+  <br />
+</p>
+`;
