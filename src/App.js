@@ -10,7 +10,7 @@ import Nav from './components/Nav';
 function App() {
   const styleClass = 'color-white';
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename="/">
       <Routes>
         <Route path="/" element={<Nav />}>
           <Route index element={<Home />} />
