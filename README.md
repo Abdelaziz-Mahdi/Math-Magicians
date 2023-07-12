@@ -40,10 +40,8 @@
 <details>
   <summary>Languages &  bundlers</summary>
   <ul>
-    <li>JS</li>
-    <li>React</li>
-    <li>ES6</li>
-    <li>VITE</li>
+    <li>JSX</li>
+    <li>CRA</li>
     <li>Jest</li>
   </ul>
 </details>
@@ -51,8 +49,7 @@
 <details>
   <summary>Server</summary>
   <ul>
-    <li>Gethub Pages</li>
-    <li>Netlify</a></li>
+    <li>Render</li>
   </ul>
 </details>
 
@@ -69,7 +66,6 @@
 
 - **Use GitFlow.**
 - **Single page React app.**
-- **Use ES6 syntax.**
 - **Consume app data from API.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -93,7 +89,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 - cd my-folder
-- git clone [https://github.com/Abdelaziz-Ali/Math-Magicians.git](https://github.com/Abdelaziz-Ali/Math-Magicians.git)
+- git clone [https://github.com/Abdelaziz-Ali/Math-Magician.git](https://github.com/Abdelaziz-Ali/Math-Magician.git)
 
 ### Install
 
@@ -107,8 +103,6 @@ Install this project with:
 To run the project, execute the following command:
 
 - code .
-- git status
-- npm init
 - npm install
 - npm start
 
@@ -122,7 +116,7 @@ npm test
 
 You can deploy this project using:
 
-- Render.com
+- Render.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,7 +136,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Finish full website.**
 - [ ] **Create Tests.**
 - [ ] **Deploy.**
 
@@ -164,7 +157,8 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Templete used in project provided by (Microverse)!
+- Templete used in project provided by (Microverse)!
+- Icon and logo by Tristan Edwards @iconfinder.com.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

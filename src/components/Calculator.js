@@ -6,7 +6,11 @@ function Calculator() {
   const [state, setState] = useState({ total: null, next: null, operation: null });
 
   const getBtn = (ButtonName) => {
-    setState(calculate(state, ButtonName));
+    if ((ButtonName === '+' || ButtonName === '-' || ButtonName === '÷' || ButtonName === 'x') && state.next === null) {
+      setState({ total: null, next: null, operation: null });
+    } else {
+      setState(calculate(state, ButtonName));
+    }
   };
 
   return (
@@ -19,11 +23,16 @@ function Calculator() {
 
 function Display({ result }) {
   return (
-    <h2 className="bg-gray color-white text-right pr-1 height-16">
+    <p
+      className="bg-gray color-white text-right pr-1 height-16"
+      style={{
+        marginBlockStart: '0.4em', marginBlockEnd: '0em', fontSize: '3em', fontFamily: 'Seven Segment',
+      }}
+    >
       {result[0] == null && result[1] == null ? '0' : result[0]}
       {result[2] == null ? '' : result[2]}
       {result[1] == null ? '' : result[1]}
-    </h2>
+    </p>
   );
 }
 
